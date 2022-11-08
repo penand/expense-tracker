@@ -1,11 +1,7 @@
-import { Title, Wrapper } from "./style";
+import Dashboard from './views/dashboard';
 
 function App() {
-  return (
-    <Wrapper>
-      <Title>Hello World</Title>
-    </Wrapper>
-  );
+  return <Dashboard />;
 }
 
 export default App;
